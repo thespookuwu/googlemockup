@@ -1,0 +1,35 @@
+.flex-container {
+  
+    display: flex;
+    justify-content: flex-end;
+}
+.alinear{
+    padding: 5px;
+    color: white;
+    font: 13px/27px Roboto,RobotoDraft;
+}
+.body{
+    background-color: rgb(61, 60, 60);
+}
+.flex-content{
+    display: flex;/*Comportar como flex para pasar elementos de cierta manera*/
+    flex-direction: column;/*Filas horizontal*/
+    align-items: center;
+    padding-top: 110px;
+}
+
+img {
+    width: 272px;
+    height: 92px;
+   }
+.cat {
+    height: 200px;
+    width: 200px;
+   }
+.footer{
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: flex-end;
+    padding-top: 280px;
+    padding-right: 20px;
+}
